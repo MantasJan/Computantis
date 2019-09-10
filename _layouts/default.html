@@ -7,11 +7,13 @@
 
 <body>
   {% include navbar.html %}
-
-  {{ content }}
-
+  <main>
+    <div class="container inside">
+      {{ content }}
+    </div>
+  </main>
+  {% include footer.html %}
   {% include scripts.html %}
-
 </body>
 
 </html>
