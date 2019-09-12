@@ -4,7 +4,7 @@
   background-color: #EEEEEE;
 }
 
-.inside > * {
+.inside>* {
   font-family: 'Open Sans', 'Roboto', sans-serif;
 }
 
@@ -14,9 +14,11 @@ html, body {
   min-height: 100vh;
   flex-direction: column;
 }
+
 footer {
   padding: .5rem 1rem;
 }
+
 main {
   flex-grow: 1;
 }
@@ -29,4 +31,8 @@ main {
 .contacts-icon {
   font-size: 13pt;
   color: #212529;
+}
+
+.active a {
+  color: #5c6eff !important;
 }
