@@ -1,0 +1,19 @@
+plugins:
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+title: Computantis
+description: Computantis
+url: "https://computantis.lt"
+author: Computantis
+facebook:publisher: ComputantisLT
+logo: /computantis.svg
+social:
+  name: ComputantisLT
+  links:
+    - https://www.facebook.com/ComputantisLT/
+    - https://computantis.lt/
+    - http://computantis.lt/
+    - https://www.computantis.lt/
+    - http://www.computantis.lt/
+lang: lt_LT

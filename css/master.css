@@ -36,3 +36,7 @@ main {
 .active a {
   color: #5c6eff !important;
 }
+
+.big-text {
+  font-size: 40pt;
+}
