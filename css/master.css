@@ -40,3 +40,10 @@ main {
 .big-text {
   font-size: 40pt;
 }
+table {
+  border-collapse: collapse;
+}
+
+table, th, td {
+  border: 1px solid black;
+}
