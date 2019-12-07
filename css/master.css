@@ -59,3 +59,7 @@ table, th, td {
   transform: scale(0.5);
   float: none;
 }
+
+.nav-link {
+  font-size: 1.1rem !important;
+}
