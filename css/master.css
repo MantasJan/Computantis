@@ -47,3 +47,11 @@ table {
 table, th, td {
   border: 1px solid black;
 }
+.nuotrauka {
+  transform: scale(0.7);
+  float: right;
+}
+.ocean {
+  transform: scale(0.5);
+  float: none;
+}
