@@ -40,6 +40,7 @@ main {
 .big-text {
   font-size: 40pt;
 }
+
 table {
   border-collapse: collapse;
 }
@@ -47,10 +48,13 @@ table {
 table, th, td {
   border: 1px solid black;
 }
+
 .nuotrauka {
   transform: scale(0.7);
   float: right;
+  transform-origin: top center;
 }
+
 .ocean {
   transform: scale(0.5);
   float: none;
