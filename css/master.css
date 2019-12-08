@@ -54,7 +54,11 @@ table, th, td {
   float: right;
   transform-origin: top center;
 }
-
+.photo {
+  transform: scale(0.4);
+  float: right;
+  transform-origin: top center;
+}
 .ocean {
   transform: scale(0.5);
   float: none;
