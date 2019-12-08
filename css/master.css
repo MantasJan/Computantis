@@ -50,12 +50,10 @@ table, th, td {
 }
 
 .nuotrauka {
-  transform: scale(0.7);
   float: right;
   transform-origin: top center;
 }
 .photo {
-  transform: scale(0.4);
   float: right;
   transform-origin: top center;
 }
