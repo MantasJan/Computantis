@@ -69,7 +69,7 @@ table, th, td {
 }
 
 .jumbotron {
-  background-color: #EEEEEE !important;
+  background: url("../ocean_dark.jpg");
 }
 
 @media screen and (min-width: 768px) {
