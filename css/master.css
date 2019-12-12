@@ -49,14 +49,14 @@ table, th, td {
   border: 1px solid black;
 }
 
-.nuotrauka {
-  float: right;
-  transform-origin: top center;
+.underline-urls a {
+  text-decoration: underline;
 }
 
 .photo {
   float: right;
-  transform-origin: top center;
+  animation-name: slideDown;
+  animation-duration: .3s;
 }
 
 .ocean {
@@ -69,7 +69,23 @@ table, th, td {
 }
 
 .jumbotron {
-  background: url("../ocean_dark.jpg");
+  background: url("../ocean_dark.jpg"), url("../ocean_dark_lowres.jpg");
+}
+
+.jumbotron * {
+  transform-origin: left top;
+  animation-name: slideDown;
+  animation-duration: .3s;
+}
+
+@keyframes slideDown {
+  from {
+    transform: scaleY(0);
+  }
+
+  to {
+    transform: scaleY(1);
+  }
 }
 
 @media screen and (min-width: 768px) {
