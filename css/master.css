@@ -53,10 +53,12 @@ table, th, td {
   float: right;
   transform-origin: top center;
 }
+
 .photo {
   float: right;
   transform-origin: top center;
 }
+
 .ocean {
   transform: scale(0.5);
   float: none;
@@ -64,4 +66,16 @@ table, th, td {
 
 .nav-link {
   font-size: 1.1rem !important;
+}
+
+.jumbotron {
+  background-color: #EEEEEE !important;
+}
+
+@media screen and (min-width: 768px) {
+  .display-md-4 {
+    font-size: 3.5rem;
+    font-weight: 300;
+    line-height: 1.2;
+  }
 }
