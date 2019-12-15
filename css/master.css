@@ -69,7 +69,7 @@ table, th, td {
 }
 
 .jumbotron {
-  background: url("../ocean_dark.jpg"), url("../ocean_dark_lowres.jpg");
+  background: url("../nuotraukos/ocean_dark.jpg"), url("../nuotraukos/ocean_dark_lowres.jpg");
 }
 
 .jumbotron * {
