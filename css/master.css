@@ -77,10 +77,15 @@ table, th, td {
   animation-name: slideDown;
   animation-duration: .3s;
 }
-.button, .button:hover, .button:active  {
+.button  {
   color: #EEEEEE !important;
   background-color: #5C6EFF !important;
   border-color: #5C6EFF !important;
+}
+.button:hover, .button:active {
+  color: #EEEEEE !important;
+  background-color: #5C5FFF !important;
+  border-color: #5C5FFF !important;
 }
 @keyframes slideDown {
   from {
