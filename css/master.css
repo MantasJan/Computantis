@@ -77,16 +77,19 @@ table, th, td {
   animation-name: slideDown;
   animation-duration: .3s;
 }
-.button  {
+
+.button {
   color: #EEEEEE !important;
   background-color: #5C6EFF !important;
   border-color: #5C6EFF !important;
 }
+
 .button:hover, .button:active {
   color: #EEEEEE !important;
   background-color: #5C5FFF !important;
   border-color: #5C5FFF !important;
 }
+
 @keyframes slideDown {
   from {
     transform: scaleY(0);
@@ -104,9 +107,31 @@ table, th, td {
     line-height: 1.2;
   }
 }
-.atvirukas {
-  float: center;
+
+.modal-header {
+  padding: 0 !important;
 }
-.popup {
-  transform: scale(1.2);
+
+.close {
+  background-color: #ffffff !important;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+}
+
+.modal-content {
+  background-color: #00000000 !important;
+  border-color: #00000000 !important;
+}
+
+.modal-content * {
+  border-color: #00000000 !important;
+}
+
+.modal-body {
+  padding: 0 !important;
+}
+
+.atvirutes-photo {
+  max-width: 100%;
 }
