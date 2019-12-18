@@ -104,3 +104,9 @@ table, th, td {
     line-height: 1.2;
   }
 }
+.atvirukas {
+  float: center;
+}
+.popup {
+  transform: scale(1.2);
+}
