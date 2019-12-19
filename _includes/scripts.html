@@ -5,6 +5,15 @@
   $(window).on('load', function() {
     if ($(window).width() >= 768) {
       $('#atvirute').modal('show');
+    } else {
+      document.getElementById('snow').style.display = 'none'; //panaikinti, panaikinus sniega
     }
+  });
+</script>
+
+<!-- Panaikinti, panakinus sniega: -->
+<script type="text/javascript">
+  $('#atvirute').on('hide.bs.modal', function(e) {
+    document.getElementById('snow').style.display = 'none';
   });
 </script>
