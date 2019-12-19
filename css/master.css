@@ -79,15 +79,18 @@ table, th, td {
 }
 
 .button {
-  color: #EEEEEE !important;
+  color: #FFFFFF !important;
   background-color: #5C6EFF !important;
   border-color: #5C6EFF !important;
 }
 
-.button:hover, .button:active {
-  color: #EEEEEE !important;
-  background-color: #5C5FFF !important;
-  border-color: #5C5FFF !important;
+.button:hover {
+  background-color: #4f5edb !important;
+  border-color: #4f5edb !important;
+}
+
+.button:active {
+  background-color: #4351bf !important;
 }
 
 @keyframes slideDown {
@@ -144,7 +147,6 @@ table, th, td {
 }
 
 /* Panaikinti, panaikinus sniega: */
-
 .snow-container {
   position: absolute;
   height: 100%;
