@@ -1,0 +1,16 @@
+---
+title: Naudinga Informacija
+permalink: /naudinga/
+layout: default
+---
+<h2 class="mt-5"><i class="fas fa-file-alt mr-3"></i>Naudinga Informacija</h2>
+<div class="card-deck">
+  {% for post in site.posts %}
+  <div class="card mt-2">
+    <a href="{{ post.url }}" class="card-body">
+      <h5 class="card-title mb-0">{{ post.title }}</h5>
+    </a>
+    <div class="card-text ml-5 mr-5">{{ post.excerpt }}</div>
+  </div>
+  {% endfor %}
+</div>

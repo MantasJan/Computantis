@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="lt" dir="ltr">
+
+<head>
+  {% include head.html %}
+</head>
+
+<body>
+  {% include navbar.html %}
+  <main class="mt-5">
+    <div class="container inside mt-4 pl-4 pr-4 underline-urls">
+      <h2 class="mt-5">{{ page.title }}</h2>
+      <p>{{ page.date | date: "%Y-%m-%d" }}</p>
+      {{ content }}
+    </div>
+  </main>
+  {% include footer.html %}
+  {% include scripts.html %}
+</body>
+
+</html>
