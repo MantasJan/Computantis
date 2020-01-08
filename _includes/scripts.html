@@ -12,22 +12,23 @@
   $(window).on('load', function() {
     if ($(window).width() >= 768) {
       $('#atvirute').modal('show');
-    } else {
-      //panaikinti, panaikinus sniega:
-      var snow = document.getElementById('snow');
-      if (snow) {
-        snow.style.display = 'none';
-      }
     }
+    // else {
+    //   //panaikinti, panaikinus sniega:
+    //   var snow = document.getElementById('snow');
+    //   if (snow) {
+    //     snow.style.display = 'none';
+    //   }
+    // }
   });
 </script>
 
 <!-- Panaikinti, panakinus sniega: -->
-<script type="text/javascript">
+<!-- <script type="text/javascript">
   $('#atvirute').on('hide.bs.modal', function(e) {
     var snow = document.getElementById('snow');
     if (snow) {
       snow.style.display = 'none';
     }
   });
-</script>
+</script> -->

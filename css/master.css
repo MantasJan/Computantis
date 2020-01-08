@@ -147,7 +147,7 @@ table, th, td {
 }
 
 /* Panaikinti, panaikinus sniega: */
-.snow-container {
+/* .snow-container {
   position: absolute;
   height: 100%;
   width: 100%;
@@ -228,4 +228,4 @@ table, th, td {
     -webkit-transform: translate3d(15%, 100%, 0);
     transform: translate3d(15%, 100%, 0);
   }
-}
+} */
